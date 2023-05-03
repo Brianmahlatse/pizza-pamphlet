@@ -60,20 +60,20 @@ main{
 }
 img{
     padding-top: 5px;
-    width: 300px;
-    height: 300px;
+    width: 170px;
+    height: 170px;
     border-radius: 8px;
     object-fit:inherit;
 }
 
 .toppings-description{
-    max-width: 400px;
+    max-width: 350px;
     font-size: 1.2em;
     margin-bottom: 5px;
 }
 .container{
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 
 }
 @media (max-width:768px) {
@@ -86,10 +86,4 @@ img{
     img{float:right;}
     .toppings-description{clear:both}
 
-    img{
-        width: 268px;
-    }
-    h2{
-        font-size:medium;
-    }
 }
